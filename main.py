@@ -4,6 +4,8 @@ import json
 import pygame
 import random
 
+
+
 #content 
 system_name = getpass.getuser()
 
@@ -87,7 +89,7 @@ def run():
     pygame.quit()
 
 def test():
-    print(system_name)
+    get_key()
 
 #run()
 test()
